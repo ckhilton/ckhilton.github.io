@@ -1,9 +1,130 @@
 <!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>KIRK HILTON</title>
+		<link rel="stylesheet" type="text/css" href="CSS/portfolio_website.css">
+
+	</head>
+
+	<body> 
+
+		<!-- NAVBAR -->
+		<div class="Navbar">
+
+			<a class="active" href="#Home">Home</a> 
+			<a href="#About">About</a>
+			<a href="#GitHub">GitHub</a>
+			<a href="#Contact">Contact</a>
+
+		</div>
+		<!-- /NAVBAR -->
+
+		<!-- VIDEO AREA -->
+		<div id="Home">
+
+			<video autoplay muted loop id="Typing_Video"> 
+
+				<source src="Video/Waves(1).mp4" type="video/mp4">
+
+			</video>
+
+		</div>
+
+		<div class="Video_Text">
+
+			<p>Simplicity in expression makes the message available to the most people.</p><br><br>
+
+			<h1>C. Kirk Hilton</h1><br><br><br>
+
+		</div>
+		<!-- /VIDEO AREA -->
+
+		<!-- MAIN BODY COLUMNS -->
+		<div class="Row" id="About"> 
+
+			<div class="Column_2">
+
+				<img src="Images/family_2.jpg" alt="Laptop">
+
+			</div>
+	
+			<div class="Column_1">
+
+				<h2>About</h2>
+
+				<p>
+
+					<br>Kirk is a software developer who loves to code!<br>
+					<br>He's also a father, husband, and rock climber who enjoys spending time with his family and friends outdoors.<br>
+					<br> As a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>, he has been trained in HTML, CSS, JavaScript, SQL, Python, C#, and more.<br>
+					<br>As a full-stack developer, he would love to work with you on your project.&nbsp;<a href="#Contact">Contact</a> him below!
+				
+				</p>
+
+			</div>
+			
+		</div>
+
+		<div class="Row" id="GitHub">
+
+			<div class="Column_1">
+
+				<h3>
+
+					<a href="https://github.com/ckhilton" target="_blank"><br>GitHub Portfolio</a>
+
+				</h3>
+
+			</div>
+			
+			<div class="Column_2">
+
+				<a href="https://github.com/ckhilton" target="_blank"><img src="Images/GitHub.png" alt="GitHub"></a>
+
+			</div>
+
+		</div>
+
+		<div class="Row" id="Contact"> 
+
+			<div class="Column_2">
+
+				<img src="Images/Development.jpg" alt="Contact_Image">
+
+			</div>
+		
+			<div class="Column_1"><br><br> 
+
+				<h4>Contact</h4> 
+
+				<form action="get" method="get">
+
+					<label>NAME:</label>
+					<input type="text" placeholder="Your Name">
+					<label>EMAIL:</label>
+					<input type="text" id="Email" name="Email" placeholder="Email Address">
+					<label>MESSAGE:</label>
+					<input type="text" id="Message" name="Message" placeholder="Type your message here.."><br><br>
+					<input type="submit" value="Submit">
+
+				</form>
+
+			</div>
+
+		</div>
+		<!-- /MAIN BODY COLUMNS -->
+		
+		<!-- FOOTER -->
+		<footer>
+
+			<p>"Everything should be made as simple as possible..." -<a href="Images/einstein.jpg">&nbsp;Albert Einstein</a></p>
+
+		</footer>
+		<!-- /FOOTER -->
+
+	</body>
+
 </html>
